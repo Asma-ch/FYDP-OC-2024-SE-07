@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FLATICON ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-straight/css/uicons-regular-straight.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+
+    <title>Ecommerce Website</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+      <div class="header__top">
+        <div class="header__container container">
+          <div class="header__contact">
+            <span>(+92) - 2345 - 6789</span>
+            <span>Our location</span>
+          </div>
+          <p class="header__alert-news">
+            Super Values Deals - Save more coupons
+          </p>
+          <a href="login-register.html" class="header__top-action">
+            Log In / Sign Up
+          </a>
+        </div>
+      </div>
+
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img
+            class="nav__logo-img"
+            src="assets/img/lb.png"
+            alt="website logo"
+          />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__menu-top">
+            <a href="index.html" class="nav__menu-logo">
+              <img src="./assets/img/logo.svg" alt="">
+            </a>
+            <div class="nav__close" id="nav-close">
+              <i class="fi fi-rs-cross-small"></i>
+            </div>
+          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="shop.html" class="nav__link">Shop</a>
+            </li>
+            <li class="nav__item">
+              <a href="accounts.html" class="nav__link">My Account</a>
+            </li>
+            <li class="nav__item">
+              <a href="compare.html" class="nav__link">Compare</a>
+            </li>
+            <li class="nav__item">
+              <a href="login-register.html" class="nav__link">Login</a>
+            </li>
+          </ul>
+          <div class="header__search">
+            <input
+              type="text"
+              placeholder="Search For Items..."
+              class="form__input"
+            />
+            <button class="search__btn">
+              <img src="assets/img/search.png" alt="search icon" />
+            </button>
+          </div>
+        </div>
+        <div class="header__user-actions">
+          <a href="wishlist.html" class="header__action-btn" title="Wishlist">
+            <img src="assets/img/icon-heart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+          <a href="cart.html" class="header__action-btn" title="Cart">
+            <img src="assets/img/icon-cart.svg" alt="" />
+            <span class="count">3</span>
+          </a>
+          <div class="header__action-btn nav__toggle" id="nav-toggle">
+            <img src="./assets//img/menu-burger.svg" alt="">
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== BREADCRUMB ===============-->
+        <section class="breadcrumb">
+          <ul class="breadcrumb__list flex container">
+            <li><a href="index.html" class="breadcrumb__link">Home</a></li>
+            <li><span class="breadcrumb__link"></span>></li>
+            <li><span class="breadcrumb__link">Terms and Conditions</span></li>
+          </ul>
+        </section>
+
+
+         <!-- Terms and Conditions Content -->
+    <div class="container">
+        <h2 class="text-center my-4">Terms and Conditions</h2>
+        <p>Welcome to Stylora! These terms and conditions outline the rules and regulations for the use of our website.</p>
+
+        <h4>Acceptance of Terms</h4>
+        <p>By accessing this website, you agree to comply with and be bound by these terms and conditions. If you do not agree, please do not use our services.</p>
+
+        <h4> Use of Website</h4>
+        <p>You agree to use our website for lawful purposes only. Any unauthorized use may result in termination of access.</p>
+
+        <h4>Intellectual Property</h4>
+        <p>All content, logos, images, and text are the property of Stylora and may not be used without permission.</p>
+
+        <h4>Privacy Policy</h4>
+        <p>Your privacy is important to us. Please review our <a href="privacyPolicy.html">Privacy Policy</a> for details.</p>
+
+        <h4>Payment & Transactions</h4>
+        <p>All payments made through secured payment gateways are final. Refunds and cancellations are subject to our refund policy.</p>
+
+        <h4>Changes to Terms</h4>
+        <p>We reserve the right to modify these terms at any time. Continued use of our website constitutes agreement to the revised terms.</p>
+
+        <h4>Contact Information</h4>
+        <p>If you have any questions regarding our terms and conditions, please contact us at <strong>support@stylora.com</strong>.</p>
+
+        <h4>Policies:</h4>
+        <h5>Shipping & Customs:</h5>
+        <p>We strive to deliver products efficiently while ensuring quality control. Below are the details:</p>
+        <ul>
+            <li><strong>Order Value Under PKR 3,000:</strong> Shipping Fee: 150</li>
+            <li><strong>Order Value Above PKR 3,001:</strong> Shipping Fee: 250</li>
+            <li><strong>Delivery Timeline:</strong></li>
+            <ul>
+                <li>Luxury Pret: 4-5 weeks</li>
+                <li>Formals: 6-8 weeks</li>
+                <li>Bridals: 8-12 weeks</li>
+                <li>Unstitched: 7 days</li>
+            </ul>
+        </ul>
+
+        <h4>Refund Policy:</h4>
+        <h5>How to file for a Refund?</h5>
+        <p>To apply for a refund, please email us at <a href="suport-center.html">customercare@stylora.com</a> with your order details  
+          and our customer care agent will get in contact with you. Alternatively you can call us on +92 316 7776158
+           from Monday to Saturday between 10:00 am - 6:00 pm (Pakistan Standard Time). Further, to proceed 
+           with the Refund against a purchase case, your purchase should be sent back to us within 14 days 
+           of receiving your order. REFUND Procedure: In case you want to claim a refund from STYLORA, kindly follow below given steps:<br>
+          1. Contact our customer care via WhatsApp/ Email Id or reach out to us on customercare@stylora.pk.<br>
+          2. Provide our customer care staff with your order numb6er and original order confirmation receipt sent to you via email, proof of payment Order Confirmations & Receipts are automatically generated by our system and sent out to the email ID provided by the customer once the customer checks out and completes the order purchase process on our website.<br>
+          3. Submit a request and a detailed reason/complaint/issue for requesting for a Refund claim.</p>
+
+          <h4>ELIGIBILITY CRITERIA
+          </h4>
+          <p>For a Refund STYLORA caters refund for following mentioned reasons,<br>
+            1.Delayed by brand: If 14 working days have passed since your estimated delivery timeline provide by STYLORA at time of purchase confirmation, given that vendor is allowed to change the estimated delivery timeline only once, due to any reason that may affect production implied by designer/brand, government order or an act of God, when the customer is pre-informed either by the STYLORA’s team or designer’s team. <br>
+            2.Out of stock: If the brand/vendor notifies us that your preferred item is being out of stock/ out of production and can no longer be made available in the future. <br>
+            3.Return: In case you have filed for return and we have approved and received your return in any of our STYLORA warehouses and not the designer’s then it is eligible for refund. In such cases, STYLORA will only refund the cost of the product and not bear charges for courier, return-shipping, or any amendments and stitching done to the product by the customer. In case a parcel has been stuck in customs and is returned back to the STYLORA warehouse, then shipping charges are non-refundable. <br>
+            4.Exchange: If you have exchanged/ replaced your outfit with another outfit available in stock on our website and there is a pending balance amount at our end. In such cases we will refund your amount or provide you with store credit as per your preference. <br>
+            5.Post delivery issues:
+            ---First 24 hours after delivery of the Order: Client has to report a complaint.
+            ---Next 24 hours after reporting a complaint: Client has to provide proof of their refund claim in the form of pictures, videos or any other compelling evidence.
+            ---Next 24 hours after providing the proof : Client must provide a return receipt once the case manager has approved the return. <br>
+            6.Please Note:
+                  If your order is made to order then refunds won't be catered after your order has gone into production i.e. After 48 hours of order confirmation, the made to order articles cannot be refunded.
+            Some Brands/Vendors/Designers do not offer refund option on certain articles from their Luxury Pret/Formals/Bridals collections although in standard sizes due to their price point and therefore STYLORA would not be able to refund those article.</p>
+  
+            <h4>NON-ELIGIBILITY CRITERIA</h4>
+            <P>For a Refund <BR>
+              Outfit is not-eligible for refund/return/exchange in following cases:</P>
+              <h5>1. Violation of Care instructions
+              </h5>
+              <p>Following points will be considered as violation of care instructions:<br>
+                -If the outfit has been shrunk.<br>
+                -If the outfit has been washed/ dry clean.<br>
+                -If an outfit has been stitched even in cases of missing pieces.<br>
+                -If the outfit has been worn or tried on.<br>
+                -If the item has been subjected to bleach/chemical for stain removing.<br>
+                A list of care instructions are provided by the designer and if any of those instructions are also not followed properly 
+                then the order is not eligible for a refund.</p>
+                <h5>2. Inability to provide the Proof:
+                </h5>
+                <p>If no proof has been provided in support of the claim of ‘eligibility’ within the 24 hours.
+                </p>
+                <h5>3. Timeline for sharing Return Receipt slip:
+                </h5>
+                <p>If return has been accepted and return receipt is not shared within the given time period of acceptance of the refund.
+                </p>
+                <h5>4. Packaging is tampered:
+                </h5>
+                <p>Orders are not eligible for refund, return or exchange, if packaging is opened, damaged or tampered at the time of receiving by the customer.
+                </p>
+                <h5>5. Sale Price Adjustment</h5>
+        <p>STYLORA does not cater requests for price change in case a customer has bought an article before sale at the original price and wants to be compensated with a refund for the difference in price after the sale has been implied.</p>
+
+        <h5>6. Change of Mind</h5>
+        <p>STYLORA does not cater <strong>“CHANGE OF MIND/ NO LONGER NEEDED/ NO TECHNICAL REASON BUT JUST WANT TO CANCEL THE ORDER/ DIDN’T LIKE THE PRODUCT AFTER OPENING THE PACKAGE/ ORDER BY MISTAKE”</strong> as a reason for cancellation/refund/exchange if reported after 48 hours of placing the order.</p>
+
+        <h5>7. Advance Payment Clause</h5>
+        <p>Any amount paid as ‘advance payment’ for bridal/couture orders is non-refundable and non-transferable.</p>
+
+        <h5>8. Completed Product or in Final Stages of Production</h5>
+        <p>If you wish to file for a refund once the order has completed the production phase or is in the final phases of production and/or is received in our warehouse, STYLORA will deduct 50% of your paid amount as cost of production, labor, and resources.</p>
+
+        <h5>Product is Gone on Sale Price Afterwards</h5>
+        <p>STYLORA does not offer a price-match or price adjustment policy once the item has gone on sale after Order Confirmation/Payment Confirmation.</p>
+
+        <h5>Active Chargeback</h5>
+        <p>Refund can’t be issued as long as a chargeback/dispute on the payment is active and the case is in progress.</p>
+
+        <h5>Pre-Booking & Out of Stock Items</h5>
+        <p>Please be aware that we may be unable to deliver selected advance payment merchandise due to production problems or quality checks issues identified when we receive an order into stock. In these circumstances, we will notify you and refund the advance payment to your debit/credit card within thirty days of being advised that merchandise has become unavailable.</p>
+
+        <h5>Refund Disclaimers</h5>
+        <p>STYLORA offers you the right either to take your refund in the form of cash return or store credit that can be used for future purchases.</p>
+        <ul>
+            <li>In case you have been catered with store credit for an order, then you will not be considered eligible for a refund for the same order.</li>
+            <li>Once store credit has been issued, it will not be reversed/exchanged with a refund.</li>
+        </ul>
+
+        <h5>Refunds When Selling in Multiple Currencies</h5>
+        <p>Refunds are always issued to a customer in the currency that they used to pay for the order. When we issue refunds, the following rules apply:</p>
+        <ul>
+            <li>Refunds use the same payment method that was used to pay for the order.</li>
+            <li>Refunds are issued in the same currency that the customer used to pay.</li>
+            <li>If the currency needs to be converted, then the current currency rate is used.</li>
+        </ul>
+
+        <h5>Timeline for Refund</h5>
+        <p>The refund timeline varies from <strong>14 days to 45 days</strong></p>
+              <table class="table table-bordered">
+                  <thead>
+                      <tr>
+                          <th>Payment Method</th>
+                          <th>Refund Option</th>
+                          <th>Refund Time</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Credit/Debit Card</td>
+                          <td>Same Card</td>
+                          <td>7-14 Business Days</td>
+                      </tr>
+                      <tr>
+                          <td>Bank Transfer</td>
+                          <td>Store Credit / Bank Refund</td>
+                          <td>7-14 Business Days</td>
+                      </tr>
+                      <tr>
+                          <td>Cash on Delivery (COD)</td>
+                          <td>Store Credit</td>
+                          <td>2 Business Days</td>
+                      </tr>
+                  </tbody>
+              </table>
+
+              <!-- Container for Disclaimers -->
+    <div class="container my-5">
+      <h4>STYLORA Disclaimers</h4>
+
+      <!-- Color Variation Disclaimer -->
+      <div class="disclaimer-section">
+          <h5>COLOR VARIATION DISCLAIMER</h5>
+          <p>
+              Products may vary slightly from their pictures. The images of the products on our website are for illustrative purposes only.
+              Although we have made every effort to display the colours accurately, we cannot guarantee that a device’s display of the colours accurately reflects the colour of the products.
+              Your product may vary slightly from those images.
+          </p>
+          <p>
+              Due to variations in monitor settings, STYLORA assumes no responsibility regarding color matches of the product, either within an order or in a reorder.
+              Please directly contact us at <a href="suport-center.html">customercare@STYLORA.pk</a> if you have any queries about the exact color/shade.
+          </p>
+          <p>
+              Note that like-named colors used by various brands (i.e. Navy, Navy Blue, Dark Navy, etc.) are not necessarily an exact shade match.
+          </p>
+      </div>
+
+      <!-- Size Disclaimer -->
+      <div class="disclaimer-section">
+          <h5>SIZE DISCLAIMER</h5>
+          <p>
+              We make every effort to give you accurate manufacturer-reported sizing information for the products in our size guides available alongside each product on the product page.
+              However, please note that due to the nature of the manufacturing process, the product sizing may vary slightly.
+              STYLORA is not responsible for sizing variations in the manufacturing process.
+          </p>
+      </div>
+
+      <!-- How to Get the Right Fit -->
+      <div class="disclaimer-section">
+          <h5>HOW TO GET THE RIGHT FIT</h5>
+          <p>To measure your clothing size, follow these instructions:</p>
+          
+          <!-- Size Guide Image -->
+          <div class="text-center">
+              <img src="assets/img/size-guide.png" alt="Size Guide" class="img-fluid size-guide">
+          </div>
+
+          <!-- Measurement Instructions -->
+          <div class="row">
+              <div class="col-md-6">
+                  <h5>KAMEEZ (Inch)</h5>
+                  <ul>
+                      <li><strong>1. BUST:</strong> Measure around the fullest part of your bust. Keep the tape not too loose or tight.</li>
+                      <li><strong>2. WAIST:</strong> Measure around the slimmest part of your waist. Usually above the belly button.</li>
+                      <li><strong>3. HIP:</strong> Measure around the widest part of your hip. Keep the tape parallel to the floor.</li>
+                      <li><strong>4. KAMEEZ LENGTH:</strong> Measure length from the shoulder point to your desired point.</li>
+                      <li><strong>5. SHOULDER:</strong> Measure from one shoulder point to another across your back.</li>
+                      <li><strong>6. SLEEVE LENGTH:</strong> Starting from the shoulder bone, measure down to the desired length.</li>
+                      <li><strong>7. ARMHOLE ROUND:</strong> From the highest point on your shoulder, measure around the armhole.</li>
+                      <li><strong>8. WRIST ROUND:</strong> Measure around your wrist. Keep the tape not too loose or tight.</li>
+                  </ul>
+              </div>
+              <div class="col-md-6">
+                  <h5>SALWAR (Inch)</h5>
+                  <ul>
+                      <li><strong>A. WAIST ROUND:</strong> Measure around the part where you normally tie your Salwar (Lower).</li>
+                      <li><strong>B. SALWAR LENGTH:</strong> Measure from where you tie your Salwar down to the desired length.</li>
+                      <li><strong>C. THIGH ROUND:</strong> Measure around the fullest part of your thigh. Keep the tape parallel to the floor.</li>
+                      <li><strong>D. KNEE ROUND:</strong> Measure around the knee. Keep the tape parallel to the floor.</li>
+                      <li><strong>E. ANKLE ROUND:</strong> Measure around the ankle of your foot. Keep the tape parallel to the floor.</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+
+      <!-- Choosing the Right Size -->
+      <div class="disclaimer-section">
+          <h5>CHOOSE THE RIGHT SIZE</h5>
+          <p>
+              That’s easier said than done. Because, what do you do if you are in between two sizes? Well, that’s up to you.
+              Do you like a tight fit? Go for the smaller size.
+              Loving a loose fit? Go for the larger size.
+          </p>
+          <p>
+              <strong>Top Tip:</strong> If your body measurements for bust and waist result in two different suggested sizes, order the size from your bust measurement.
+          </p>
+      </div>
+  </div>
+          
+    </div>
+    <!--=============== NEWSLETTER ===============-->
+    <section class="newsletter section">
+      <div class="newsletter__container container grid">
+        <h3 class="newsletter__title flex">
+          <img
+            src="./assets/img/icon-email.svg"
+            alt=""
+            class="newsletter__icon"
+          />
+          Sign in to Newsletter
+        </h3>
+        <p class="newsletter__description">
+          ...and receive Rs.2500 coupon for first shopping.
+        </p>
+        <form action="" class="newsletter__form">
+          <input
+            type="text"
+            placeholder="Enter Your Email"
+            class="newsletter__input"
+          />
+          <button type="submit" class="newsletter__btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <div class="footer__container grid">
+      <div class="footer__content">
+        <a href="index.html" class="footer__logo">
+          <img src="./assets/img/lb.png" alt="" class="footer__logo-img" />
+        </a>
+        <h4 class="footer__subtitle">Contact</h4>
+        <p class="footer__description">
+          <span>Address:</span> 13 Link Road, Street 32, Lahore
+        </p>
+        <p class="footer__description">
+          <span>Phone:</span> +92 2222 365 /(+92) 34 2345 6789
+        </p>
+        <p class="footer__description">
+          <span>Hours:</span> 10:00 - 18:00, Mon - Sat
+        </p>
+        <div class="footer__social">
+          <h4 class="footer__subtitle">Follow Me</h4>
+          <div class="footer__links flex">
+            <a href="#">
+              <img
+                src="./assets/img/icon-facebook.svg"
+                alt=""
+                class="footer__social-icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/img/icon-twitter.svg"
+                alt=""
+                class="footer__social-icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/img/icon-instagram.svg"
+                alt=""
+                class="footer__social-icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/img/icon-pinterest.svg"
+                alt=""
+                class="footer__social-icon"
+              />
+            </a>
+            <a href="#">
+              <img
+                src="./assets/img/icon-youtube.svg"
+                alt=""
+                class="footer__social-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Address</h3>
+        <ul class="footer__links">
+          <li><a href="about-us.html" class="footer__link">About Us</a></li>
+          <li><a href="delivery-information.html" class="footer__link">Delivery Information</a></li>
+          <li><a href="privacyPolicy.html" class="footer__link">Privacy Policy</a></li>
+          <li><a href="terms-and-conditions.html" class="footer__link">Terms & Conditions</a></li>
+          <li><a href="contact-us.html" class="footer__link">Contact Us</a></li>
+          <li><a href="suport-center.html" class="footer__link">Support Center</a></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">My Account</h3>
+        <ul class="footer__links">
+          <li><a href="login-register.html" class="footer__link">Sign In</a></li>
+          <li><a href="cart.html" class="footer__link">View Cart</a></li>
+          <li><a href="wishlist.html" class="footer__link">My Wishlist</a></li>
+          <li><a href="track_order.html" class="footer__link">Track My Order</a></li>
+          <li><a href="suport-center.html" class="footer__link">Help</a></li>
+          <li><a href="order.html" class="footer__link">Order</a></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h3 class="footer__title">Secured Payed Gateways</h3>
+        <img
+          src="./assets/img/payment-method.png"
+          alt=""
+          class="payment__img"
+        />
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p class="copyright">&copy; 2024 Stylora. All right reserved</p>
+    </div>
+  </footer>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
